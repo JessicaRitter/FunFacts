@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F193C8271D48415B0018640D /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F193C8261D48415B0018640D /* FactModel.swift */; };
+		F193C8291D494B480018640D /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F193C8281D494B480018640D /* ColorModel.swift */; };
 		F1DB30FE1D42D3DD00C7B75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB30FD1D42D3DD00C7B75C /* AppDelegate.swift */; };
 		F1DB31001D42D3DD00C7B75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB30FF1D42D3DD00C7B75C /* ViewController.swift */; };
 		F1DB31031D42D3DD00C7B75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DB31011D42D3DD00C7B75C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F193C8261D48415B0018640D /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		F193C8281D494B480018640D /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		F1DB30FA1D42D3DD00C7B75C /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DB30FD1D42D3DD00C7B75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1DB30FF1D42D3DD00C7B75C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				F1DB31041D42D3DD00C7B75C /* Assets.xcassets */,
 				F1DB31061D42D3DD00C7B75C /* LaunchScreen.storyboard */,
 				F1DB31091D42D3DD00C7B75C /* Info.plist */,
+				F193C8261D48415B0018640D /* FactModel.swift */,
+				F193C8281D494B480018640D /* ColorModel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F193C8271D48415B0018640D /* FactModel.swift in Sources */,
 				F1DB31001D42D3DD00C7B75C /* ViewController.swift in Sources */,
 				F1DB30FE1D42D3DD00C7B75C /* AppDelegate.swift in Sources */,
+				F193C8291D494B480018640D /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				F1DB310E1D42D3DD00C7B75C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
